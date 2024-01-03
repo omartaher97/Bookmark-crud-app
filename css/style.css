@@ -1,0 +1,30 @@
+h1{
+    
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+   
+}
+p{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3bb961, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top:brown 3px dotted ;
+}
+body{
+    background-color: #fec260;
+    
+    font-family: "PT Sans Caption", sans-serif;
+
+}
+
+label{
+    font-weight: 600;
+}
+.bt{
+    border-bottom:brown 3px dotted ;
+  
+}

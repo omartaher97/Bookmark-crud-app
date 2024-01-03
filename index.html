@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <section class="container py-4 ">
+        <h1 class="text-center py-4 mb-4">bookmarker</h1>
+        <p class="text-center py-4">bookmark your favorite sites</p>
+
+        <label for=" Site Name" class="text-start font-weight-600"> Site Name</label>
+        <input id="Site Name" type="text"  placeholder="bookmark name" class="form-control mb-4">
+
+        <label for="Site URL">Site URL</label>
+        <input id="Site URL"  type="url"required  placeholder="Website URL" class="form-control mb-4">
+
+        <div class="bt text-center w-100"> <button onclick="addSite()" class=" text-center btn btn-info btn-lg w-25 my-4">submit</button>
+        </div>
+
+
+
+
+
+
+        <table class="table my-4 text-center">
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tableBody">
+           
+            </tbody>
+
+
+        </table>
+    </section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
